@@ -4,6 +4,11 @@ import javax.swing.*;
 public class Main{
 
 	public static void main(String[] args) {
+		gameFrame();
+		
+	}
+	
+	public static void gameFrame() {
 		//Set new Game Frame
 		JFrame gameFrame = new JFrame("Pong");
 		gameFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -17,8 +22,6 @@ public class Main{
 		
 		// Frame Visibility
 		gameFrame.setVisible(true);
-		
-
 	}
 
 }
